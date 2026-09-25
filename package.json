@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-bible",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Bible MCP — wraps the Bible API (free, no auth)",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-876aeabcfdffa4051c77833642a7a87b7090a6527291a5ea2b35f42248499abd",
-    "sourceCommit": "60f04b68c347e970c6be94a53439d1364061fc06"
+    "sourceHash": "v1-c45664968ef43253a9a5ec527ecc658cad50f7f0d86bf5688078b7b711a603c2",
+    "sourceCommit": "454041882179fae560c06e770b6b7a2f33970015"
   }
 }
