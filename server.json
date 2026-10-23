@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/bible",
   "title": "Bible",
   "description": "Bible MCP — wraps the Bible API (free, no auth) https://bible-api.com",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "websiteUrl": "https://pipeworx.io/packs/bible",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-bible",
