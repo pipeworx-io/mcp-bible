@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-bible",
-  "version": "0.1.5",
+  "version": "0.2.0",
   "description": "Bible MCP — wraps the Bible API (free, no auth) https://bible-api.com",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-bible": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "bible"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-bible.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/bible",
   "pipeworx": {
-    "sourceHash": "v1-5f1fc089e38de997b8fb22637aa2d6c872dbb4545d5250bd88080b6ffabdac72",
-    "sourceCommit": "70a4e816a9195016cd4af92dca2019485d4c3865"
+    "mode": "gateway",
+    "slug": "bible",
+    "gatewaySlug": "bible",
+    "sourceHash": "v1-207c162a88fcf141fc0c6bac35fd22f5c937e7ff8ddafe103b968c168c9ede83",
+    "sourceCommit": "4277282d72f9bf55e548b3799aaf737baf22152f"
   }
 }
