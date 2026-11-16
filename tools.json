@@ -1,6 +1,6 @@
 [
   {
-    "name": "get_verse",
+    "name": "bible_get_verse",
     "description": "Get a specific Bible verse or range by reference (e.g., \"john 3:16\", \"romans 8:28\", \"psalm 23:1-6\"). Returns verse text in World English Bible translation.",
     "inputSchema": {
       "type": "object",
@@ -27,12 +27,11 @@
         },
         "translation": {
           "type": "string",
-          "description": "Translation code: \"web\" (default), \"kjv\", \"oeb-us\", \"bbe\", \"webbe\", \"cherokee\", \"dra\""
+          "description": "Translation code: \"web\" (default when omitted), \"kjv\", \"oeb-us\", \"bbe\", \"webbe\", \"cherokee\", \"dra\""
         }
       },
       "required": [
-        "reference",
-        "translation"
+        "reference"
       ]
     }
   },

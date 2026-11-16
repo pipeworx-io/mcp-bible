@@ -1,7 +1,7 @@
 {
   "name": "@pipeworx/mcp-bible",
-  "version": "0.2.1",
-  "description": "Bible MCP — wraps the Bible API (free, no auth) https://bible-api.com",
+  "version": "0.2.2",
+  "description": "Unofficial Bible MCP — wraps the Bible API (free, no auth) https://bible-api.com",
   "type": "module",
   "main": "lib/index.js",
   "exports": {
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "bible",
     "gatewaySlug": "bible",
-    "sourceHash": "v1-59240b0bb777940095eda8acf9f5a7dc221f25ef74d19ce070ade9c1a79b7981",
-    "sourceCommit": "5cb09714e895571153f3d9663c36ff0f140cadd6"
+    "sourceHash": "v1-0c6af041082e2767b0312bb409bf27bbe5e814dc8f17835d940f0ce59aff639c",
+    "sourceCommit": "874331b0c46b151f9264bd14840631427a7721c1"
   }
 }

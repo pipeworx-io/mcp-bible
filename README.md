@@ -1,14 +1,14 @@
 # mcp-bible
 
-Bible MCP — wraps the Bible API (free, no auth) https://bible-api.com
+Unofficial Bible MCP — wraps the Bible API (free, no auth) https://bible-api.com
 
-Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1863+ live data sources. This is an independent, unofficial integration — not affiliated with, endorsed by, or published by the upstream provider.
+Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 2006+ live data sources. This is an independent, unofficial integration — not affiliated with, endorsed by, or published by the upstream provider.
 
 ## Tools
 
 | Tool | Description |
 |------|-------------|
-| `get_verse` | Get a specific Bible verse or range by reference (e.g., "john 3:16", "romans 8:28", "psalm 23:1-6"). Returns verse text in World English Bible translation. |
+| `bible_get_verse` | Get a specific Bible verse or range by reference (e.g., "john 3:16", "romans 8:28", "psalm 23:1-6"). Returns verse text in World English Bible translation. |
 | `get_passage` | Get a Bible passage in your choice of translation (KJV, WEB, OEB, BBE, Cherokee, DRA, and more). Returns full text with reference and translation metadata. |
 | `random_verse` | Fetch a random Bible verse from the World English Bible (WEB) translation. Returns the reference, full verse text, translation ID, and per-verse breakdown with book, chapter, and verse number. |
 
@@ -56,7 +56,7 @@ directly, instead of just this one's:
 }
 ```
 
-Both URLs reach the same gateway and the same 1863+ data sources. The
+Both URLs reach the same gateway and the same 2006+ data sources. The
 only difference is which pack's tools are listed **directly**; `ask_pipeworx`
 reaches all of them from either one.
 
